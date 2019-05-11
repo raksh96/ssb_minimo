@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300i,400,900i');
+
+@font-face{
+	font-family: 'Raphtalia';
+	src: url(font/Raphtalia.otf);
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+img{
+	
+	max-width: 100%;
+	display: block;
+	object-fit: contain;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #333;
+	/* color: #333; */
+}
+
+header{}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo h1{
+    font-family: Raphtalia;
+    font-size: 26px;
+}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0;
+    margin-left: 70px;
+}
+nav ul li a:hover{}
+.banner{}
+.banner img{}
+
+
+.photodiary-section{
+    padding: 50px 0;
+    padding-bottom: 200px;
+}
+.photodiary-content{
+    padding: 50px;
+}
+.photodiary-content h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.photodiary-content >span{
+    color: firebrick;
+    text-transform: uppercase;
+}
+
+.photodiary-content p{}
+.photodiary-content p span{
+    font-weight: 900;
+    color: indigo;
+    font-style: oblique;
+}
